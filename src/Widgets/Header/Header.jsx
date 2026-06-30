@@ -4,7 +4,7 @@ function Header() {
 
   return (
     <header className={styles.headerContainer}>
-        <p>meu cabeçalho aqui</p>
+        <p></p>
     </header>
   )
 }
