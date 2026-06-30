@@ -106,8 +106,8 @@ function Carousel() {
 
         <div className="carousel">
 
-            <button onClick={livroAnterior}>
-                Anterior
+            <button className="btn-carousel" onClick={livroAnterior}>
+                   ◀
             </button>
 
             <div className="janela">
@@ -146,8 +146,8 @@ function Carousel() {
                 </div>
             </div>
 
-            <button onClick={proximoLivro}>
-                Próximo
+            <button className="btn-carousel" onClick={proximoLivro}>
+                ▶
             </button>
 
         </div>
