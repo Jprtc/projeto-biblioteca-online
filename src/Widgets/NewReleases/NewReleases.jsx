@@ -11,7 +11,7 @@ import TudoeRio from "../../assets/TudoeRio.jpg";
 const fallbackCover =
   "https://placehold.co/180x260/f3f3f3/111111?text=Livro";
 
-const books = [
+const livros = [
   {
     title: "O erro",
     author: "Elle Kennedy",
@@ -70,7 +70,7 @@ const books = [
   },
 ];
 
-function NewReleases() {
+function NewReleases({books=livros}) {
   const [activeIndex, setActiveIndex] = useState(0);
   const [direction, setDirection] = useState("next");
 
