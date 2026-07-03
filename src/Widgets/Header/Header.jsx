@@ -10,7 +10,7 @@ function Header() {
       <img className={styles.logo} src="/logo.png" 
       alt="logo" />
       </a>
-      <img className= {styles.entrega}src= "/entrega.png" alt="entrega" />
+      <img className= {styles.entrega} src= "/entrega.png" alt="entrega" />
       <div className={styles.barraPesquisa}>
        <select className= {styles.select} >
      <option value="Livros">Livros</option>
@@ -48,15 +48,7 @@ function Header() {
     
 </div>
 
-
-
-    
-
-  
-    
-
-
-    <button className={styles.loginButton}>
+<button className={styles.loginButton}>
   <span className={styles.loginText}>Olá, faça seu login</span>
 
   <div className={styles.loginBottom}>
