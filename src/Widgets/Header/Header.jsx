@@ -1,4 +1,6 @@
 import styles from './Header.module.css'
+import logo from '../../assets/logo.png'
+import entrega from '../../assets/entrega.png'
 
 function Header() {
   return (
@@ -7,10 +9,10 @@ function Header() {
       <a className={styles.logoBox}
       href='https://www.amazon.com.br/'
       target='_blank' >
-      <img className={styles.logo} src="/logo.png" 
+      <img className={styles.logo} src={logo}
       alt="logo" />
       </a>
-      <img className= {styles.entrega}src= "/entrega.png" alt="entrega" />
+      <img className= {styles.entrega} src= {entrega} alt="entrega" />
       <div className={styles.barraPesquisa}>
        <select className= {styles.select} >
      <option value="Livros">Livros</option>
@@ -48,15 +50,7 @@ function Header() {
     
 </div>
 
-
-
-    
-
-  
-    
-
-
-    <button className={styles.loginButton}>
+<button className={styles.loginButton}>
   <span className={styles.loginText}>Olá, faça seu login</span>
 
   <div className={styles.loginBottom}>
